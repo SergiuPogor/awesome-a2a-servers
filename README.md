@@ -23,3 +23,11 @@ Sample agent which can convert currency using tools. Showcases multi-turn intera
 [**Python A2A**](https://github.com/themanojdesai/python-a2a)
 Python A2A is a powerful, easy-to-use library for implementing Google's [Agent-to-Agent (A2A) protocol](https://google.github.io/A2A/). It enables seamless communication between AI agents, creating interoperable agent ecosystems that can collaborate to solve complex problems.
 
+
+
+## Trust & Payment Infrastructure for A2A
+
+Services that provide trust scoring, identity verification, and payment rails for agent-to-agent interactions.
+
+[**TWZRD Agent Intel**](https://intel.twzrd.xyz)
+Trust scoring and x402 micropayment verification for AI agents on Solana. When AI agents transact via A2A, use TWZRD to verify counterparty wallet reputation before transacting. Free: `resolve_agent`, `score_agent`, `preflight_check`. Paid: `get_trust_receipt` (HTTP 402 + USDC). Zero-install MCP: `{"mcpServers": {"twzrd-agent-intel": {"url": "https://intel.twzrd.xyz/mcp"}}}`. ([PyPI](https://pypi.org/project/twzrd-agent-intel/))
