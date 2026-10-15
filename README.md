@@ -31,3 +31,6 @@ Services that provide trust scoring, identity verification, and payment rails fo
 
 [**TWZRD Agent Intel**](https://intel.twzrd.xyz)
 Trust scoring and x402 micropayment verification for AI agents on Solana. When AI agents transact via A2A, use TWZRD to verify counterparty wallet reputation before transacting. Free: `resolve_agent`, `score_agent`, `preflight_check`. Paid: `get_trust_receipt` (HTTP 402 + USDC). Zero-install MCP: `{"mcpServers": {"twzrd-agent-intel": {"url": "https://intel.twzrd.xyz/mcp"}}}`. ([PyPI](https://pypi.org/project/twzrd-agent-intel/))
+
+[**Steward**](https://pay.brianbooms.com)
+Pay-per-call data tools for AI agents settled in USDC on Base via raw x402 v1: 92 endpoints (jokes, fortunes, weather, FX, crypto, geocode, sleep, and more) at $0.005–$0.99 per call — no accounts, no API keys. A2A endpoint at `https://pay.brianbooms.com/api/v1/a2a` with the a2a-x402 payment extension. ([Agent card](https://pay.brianbooms.com/.well-known/agent-card.json) | [Discovery](https://pay.brianbooms.com/.well-known/x402) | [MCP](https://github.com/brianbooms/steward-mcp))
