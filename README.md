@@ -23,6 +23,9 @@ Sample agent which can convert currency using tools. Showcases multi-turn intera
 [**Python A2A**](https://github.com/themanojdesai/python-a2a)
 Python A2A is a powerful, easy-to-use library for implementing Google's [Agent-to-Agent (A2A) protocol](https://google.github.io/A2A/). It enables seamless communication between AI agents, creating interoperable agent ecosystems that can collaborate to solve complex problems.
 
+[**SitePatent Listing Search Agent**](https://sitepatent.com)
+Read-only, hosted A2A agent for the SitePatent directory of startups, SaaS and online products. Send a plain-text query via `SendMessage` (JSON-RPC, A2A protocol 1.0) and get back a completed task whose artifact lists the matching approved listings (title, slug, URL path, tagline, categories). No authentication, no API key. A2A endpoint at `https://sitepatent.com/api/a2a`. ([Agent card](https://sitepatent.com/.well-known/agent-card.json))
+
 
 
 ## Trust & Payment Infrastructure for A2A
